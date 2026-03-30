@@ -1,0 +1,25 @@
+2026-03-30T17:39:40.620+01:00  INFO 14940 --- [main] ma.ens.Tp8MonitoringApplication          : Starting Tp8MonitoringApplication using Java 25.0.2 with PID 14940 (C:\Users\ghali\Downloads\tp8-monitoring\tp8-monitoring\target\classes started by ghali in C:\Users\ghali\Downloads\tp8-monitoring)
+2026-03-30T17:39:40.633+01:00  INFO 14940 --- [main] ma.ens.Tp8MonitoringApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-03-30T17:39:44.010+01:00  INFO 14940 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-30T17:39:44.053+01:00  INFO 14940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-30T17:39:44.055+01:00  INFO 14940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-03-30T17:39:44.204+01:00  INFO 14940 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3400 ms
+2026-03-30T17:39:46.029+01:00  INFO 14940 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-03-30T17:39:46.250+01:00  WARN 14940 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-30T17:39:46.292+01:00  INFO 14940 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-30T17:39:46.332+01:00 ERROR 14940 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
