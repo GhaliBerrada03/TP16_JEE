@@ -57,8 +57,6 @@ docker-compose up -d
 ---
 
 ## 🛑 Arrêter
-<img width="678" height="256" alt="Screenshot 2026-03-30 174440" src="https://github.com/user-attachments/assets/ea400403-4309-4e46-b386-5fa5e12a7d95" />
-
 ```bash
 docker-compose down
 ```
